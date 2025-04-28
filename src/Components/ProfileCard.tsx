@@ -1,5 +1,5 @@
 import React from 'react';
-import shape from '../assets/shape.png';
+import shape from '../assets/Shape.png';
 
 interface ProfileCardProps {
   image: string;
