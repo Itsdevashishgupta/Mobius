@@ -29,7 +29,7 @@ const Header = () => {
           <img src={sampleImage} alt="Hero" className="max-w-60 h-auto" />
           <p className='text-sm text-right text-whiteCustom pr-12'>Download Free E-Book</p>
           </div>
-          <div className="absolute right-[15%] bottom-[20%]">
+          <div className="absolute right-56 bottom-36">
             <div className="relative w-28 h-28 rounded-full border-[1px] border-white backdrop-blur-sm bg-[#D9D9D94D] flex items-center justify-center shadow-md">
             <span className='text-5xl'>📖</span>
 
