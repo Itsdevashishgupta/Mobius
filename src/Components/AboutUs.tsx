@@ -1,5 +1,7 @@
 import React from 'react';
 import ProfileCard from './ProfileCard'; 
+import image2 from '../assets/image2.png';
+import image3 from '../assets/image3.png'; 
 
 const AboutUs: React.FC = () => {
   return (
@@ -12,7 +14,7 @@ const AboutUs: React.FC = () => {
         <div className="max-w-[800px] flex flex-col gap-16 justify-center items-center mx-auto">
 
           <ProfileCard
-            image="/src/assets/image2.png" 
+            image={image2}
             name="Ashwin"
             description="Ashwin is the founder of mobiusengine.ai. He is an accomplished senior executive with over 20 years of experience in cloud infrastructure and financial services. With over 2 decades of experience at Google and JP Morgan, Ashwin held various product and GTM roles. Ashwin is an MBA holder from Yale University."
             vision=" Ashwin’s vision with Mobius is to give job seekers a significant advantage in securing the roles of their dreams."          
@@ -28,7 +30,7 @@ const AboutUs: React.FC = () => {
 
           
           <ProfileCard
-            image="/src/assets/image3.png" 
+            image={image3}
             name="Nicole"
             description="Nicole is an Executive coach at Mobius specializing in resume builds and career advisory."
             vision="With a B.S in Business Administration from UC Berkeley and 7+ years of experience in AI-driven product strategy, she has seen firsthand how the proper positioning opens doors. She takes a targeted, results-driven approach to help clients confidently stand out and land roles that truly match their skills and potential."

@@ -1,12 +1,12 @@
-
-
+import linkedin from '../assets/linekdin.png';
+import footerlog0 from '../assets/footerlogo.png';
 const Footer = () => {
   return (
     <footer className="bg-white text-[#0057FF]">
   <div className="max-w-7xl mx-auto py-10 px-6 flex flex-col">
 
     <div className="md:col-span-2 flex flex-col">
-      <img src="/src/assets/Group 21 (2).png" alt="MobuisEngine Logo" className="h-10 w-16" />
+      <img src={footerlog0} alt="MobuisEngine Logo" className="h-10 w-16" />
       <p className='mb-6 font-bold'>MobiusEngine</p>
       <hr className="border-gray-300 w-96" />
     </div>
@@ -47,10 +47,10 @@ const Footer = () => {
       <h4 className="font-semibold underline text-xs">Socials</h4>
       <div className="flex items-center gap-4">
         <a href="#" className="border border-[#0057FF] rounded-full p-2 hover:bg-blue-100 transition">
-          <img src="/src/assets/linekdin.png" alt="LinkedIn" className="h-3 w-3" /> 
+          <img src={linkedin} alt="LinkedIn" className="h-3 w-3" /> 
         </a>
         <a href="#" className="border border-[#0057FF] rounded-full p-2 hover:bg-blue-100 transition">
-          <img src="/src/assets/linekdin.png" alt="LinkedIn" className="h-3 w-3" />
+          <img src={linkedin} alt="LinkedIn" className="h-3 w-3" />
         </a>
       </div>
     </div>
